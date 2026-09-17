@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Hearthglow Candle Co.</title>
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕯️</text></svg>" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <div class="nav-part1">
+      <a href="index.html" aria-label="Hearthglow Candle Co. home">
+        <svg width="150" height="40" viewBox="0 0 150 40" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <circle cx="16" cy="20" r="9" fill="currentColor" opacity="0.15"></circle>
+          <path d="M16 8c2.2 3 3.4 5.4 3.4 7.6a3.4 3.4 0 1 1-6.8 0C12.6 13.4 13.8 11 16 8Z" fill="currentColor"></path>
+          <text x="34" y="27" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" fill="currentColor">Hearthglow</text>
+        </svg>
+      </a>
+    </div>
+    <div class="nav-part2">
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Our Story</a>
+        <a href="shop.html">Shop</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="icons">
+        <i class="ri-menu-fill"></i>
+        <i class="ri-shopping-cart-2-line"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor"></div>
+
+  <div class="main">
+
+    <div class="page1">
+      <h1>Get In</h1>
+      <h1>Touch</h1>
+      <div class="video-container">
+        <div class="play">WATCH</div>
+        <img src="https://images.unsplash.com/photo-1602607203588-d6d0eda790e3?q=80&w=1600&auto=format&fit=crop" alt="Candle packaged for shipping">
+      </div>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <h2>Say Hello</h2>
+        <p>Questions about an order, a wholesale enquiry, or just want to tell us your favourite scent? Fill out the form and we'll get back to you within 1–2 business days.</p>
+        <p><strong>Email</strong><br>hello@hearthglowcandleco.com</p>
+        <p><strong>Studio Hours</strong><br>Mon–Fri, 9am–5pm</p>
+      </div>
+
+      <form class="contact-form" id="enquiryForm" novalidate>
+        <div class="form-group" id="group-name">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+          <span class="error-text" id="error-name"></span>
+        </div>
+
+        <div class="form-group" id="group-email">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <span class="error-text" id="error-email"></span>
+        </div>
+
+        <div class="form-group" id="group-subject">
+          <label for="subject">Enquiry Type</label>
+          <select id="subject" name="subject">
+            <option value="">Select an option</option>
+            <option value="order">Order Question</option>
+            <option value="wholesale">Wholesale Enquiry</option>
+            <option value="custom">Custom / Gifting</option>
+            <option value="other">Something Else</option>
+          </select>
+          <span class="error-text" id="error-subject"></span>
+        </div>
+
+        <div class="form-group" id="group-message">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us a bit more..."></textarea>
+          <span class="error-text" id="error-message"></span>
+        </div>
+
+        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+        <div class="form-success" id="formSuccess">Thanks — your message has been sent. We'll be in touch soon.</div>
+      </form>
+    </div>
+
+    <div class="page7">
+      <div class="page7-upper">
+        <div class="upper-left">
+          <h4>CONNECT WITH US</h4>
+          <p>Instagram</p>
+          <p>Pinterest</p>
+          <p>TikTok</p>
+          <p>Facebook</p>
+        </div>
+        <div class="upper-mid">
+          <span class="foot-logo">🕯️</span>
+        </div>
+        <div class="upper-right">
+          <h4>THE NITTY GRITTIES</h4>
+          <p>Shipping FAQs</p>
+          <p>Candle Care</p>
+          <p>Wholesale</p>
+          <p>Careers</p>
+        </div>
+      </div>
+      <div class="page7-mid">
+        <p>© HEARTHGLOW CANDLE CO. 2026</p>
+        <p>TERMS OF USE</p>
+        <p>PRIVACY POLICY</p>
+      </div>
+      <div class="page7-bottom">
+        <p>Hearthglow is a small, independent candle studio. Every candle is hand-poured in-house, in batches small enough that we can taste-test the room, not just the wax.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+  <script src="contactForm.js"></script>
+
+</body>
+</html>
